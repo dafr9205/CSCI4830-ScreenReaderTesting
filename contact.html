@@ -1,0 +1,273 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Contact Me</title>
+
+<style type="text/css">
+
+@charset "utf-8";
+
+/*------------ Resume CSS Styling------------*/
+
+header {
+	margin-top:0px;
+	width:710px;
+	height:110px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#container {
+	position:relative;
+	margin-top:8px;
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	height:600px;
+	background-color:#ffffff;
+	box-shadow: 10px 10px 50px #000;
+	border: 12px solid #00ffff;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 15.5px;
+	background-color: #000000;
+	background-image: url("images/background_newbackdrop.jpg");
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	color: #000000;
+	text-align:center;
+	}
+
+#centercol {
+	margin-top:0px;
+	margin-left:180px;
+	display:inline-block;
+	width:730px;
+	height:600px;
+	padding-left:10px;
+	padding-right:10px;
+	min-height:200px;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+	position:absolute;
+	margin-top:0px;
+	margin-bottom:20px;
+	width: 130px;
+	height: 300px;
+	margin-left:0px;
+	margin-right:0px;
+
+}
+
+.navlinks {
+	display: block;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #00ffff;
+	text-decoration: none;
+	text-align: justify;
+	font-size:20px;
+	width:160px;
+	height:120px;
+	line-height: 30px;
+}
+
+.p-indent{
+text-indent:35px;
+position:relative;
+}
+
+h2{
+text-align:center;
+font-size: 17pt;
+font-weight: bold;
+}
+
+h3{
+text-align:center;
+font-size: 20pt;
+font-weight: bold;
+}
+
+h5{
+text-align:center;
+font-size: 12pt;
+}
+
+a:link, a:visited {
+	color: #ffffff;
+	background-color: #00ffff;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #00ffff;
+	background-color: #000000;
+	text-decoration: none;
+}
+
+.text-left{
+text-align:left;
+}
+
+form{
+display: inline-block;
+text-align: center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <img src="images/contactme_header_banner.png" width="680" height="110">
+</header>
+
+<div id="container">
+
+<nav>
+	<a href="index.html" class="navlinks">home</a>  <a href="aboutme.html" class="navlinks">about me</a>  <a href="projects.html" class="navlinks">projects</a>  <a href="resume.html" class="navlinks">resume</a>  <a href="contact.html" class="navlinks">contact me</a>
+</nav>
+
+<div id="centercol">
+
+<p>
+<h3>To contact me, please send me an e-mail below: </h3>
+</p>
+<br>
+<br>
+<br>
+
+
+<form name="contactform" method="post" action="send_form_email.php">
+
+<table width="450px">
+
+<tr>
+
+ <td valign="top">
+
+  <label for="first_name">* First Name:</label>
+
+ </td>
+
+ <td valign="top">
+
+  <input  type="text" name="first_name" maxlength="50" size="30">
+
+ </td>
+
+</tr>
+
+<tr>
+
+ <td valign="top"">
+
+  <label for="last_name">* Last Name:</label>
+
+ </td>
+
+ <td valign="top">
+
+  <input  type="text" name="last_name" maxlength="50" size="30">
+
+ </td>
+
+</tr>
+
+<tr>
+
+ <td valign="top">
+
+  <label for="email">* Email Address:</label>
+
+ </td>
+
+ <td valign="top">
+
+  <input  type="text" name="email" maxlength="80" size="30">
+
+ </td>
+
+</tr>
+
+<tr>
+
+ <td valign="top">
+
+  <label for="telephone">Telephone Number:</label>
+
+ </td>
+
+ <td valign="top">
+
+  <input  type="text" name="telephone" maxlength="30" size="30">
+
+ </td>
+
+</tr>
+
+<tr>
+
+ <td valign="top">
+
+  <label for="comments">* Comments:</label>
+
+ </td>
+
+ <td valign="top">
+
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+
+ </td>
+
+</tr>
+
+<tr>
+
+ <td colspan="2" style="text-align:center">
+
+  <input type="submit" value="Submit">
+ 
+ </td>
+
+</tr>
+
+</table>
+
+</form>
+<br>
+<br>
+a  *  next to a field indicates that it is required field.
+<br>
+<br>
+<br>
+<br>
+<br>
+<p><i>I thank you for visiting my website. Please check back soon for more updates! </i></p>
+
+</div>
+</div>
